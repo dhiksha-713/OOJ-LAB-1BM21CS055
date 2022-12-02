@@ -7,7 +7,7 @@ class Time
 	  Scanner ss=new Scanner(System.in);
 	  System.out.println("Enter a time in hour, minutes and seconds:");
 	  hour=ss.nextInt();
-	  min=ss.nextInt();
+	  min=ss.nsdaextInt();
 	  sec=ss.nextInt();
 	}
 	void Time(int a, int b, int c)
