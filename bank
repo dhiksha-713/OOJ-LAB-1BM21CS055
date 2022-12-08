@@ -105,7 +105,8 @@ class Bank
 	if(b1.acc(b1.acc_type)==true|| b1.acc(b1.acc_type)==true)
 	{	
 		Sav_acct s1=new Sav_acct();
-		s1=b1;
+		//s1=b1;
+		s1.setd();
 		System.out.println("Enter your choice:/n1.Deposit/n2.Calculate interest/n3.Withdraw/n4.Display/n5.Exit");
 		int choice=ss.nextInt();
 		switch(choice)
@@ -120,6 +121,7 @@ class Bank
 	else 
 	{
 		Cur_acct c1=new Cur_acct();
+		c1.setd();
 		System.out.println("Enter your choice:/n1.Deposit/n2.Penalty Check/n3.Withdraw/n4.Display/n5.Exit");
 		int choice=ss.nextInt();
 		switch(choice)
